@@ -62,4 +62,7 @@ Ce mini projet est une application web simple de collecte de feedbacks, construi
 - `partials/` : Répertoire contenant les fichiers de header et footer partagés.
 
 ## Aperçu du Projet
-![accueil du Projet](images/accueilFeedback.png)
+![accueil](https://github.com/rene-belin/PHP_Feedback/assets/145906989/ca367868-a4e6-400c-9c29-0cc9808abc25)
+
+![orderBy](https://github.com/rene-belin/PHP_Feedback/assets/145906989/e346dcef-b68d-461a-8279-6cba5db67ecf)
+
