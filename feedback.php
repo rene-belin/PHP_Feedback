@@ -1,8 +1,8 @@
 <?php include('partials/header.php') ?>
 
 <?php
-//sql
-$query = "SELECT * FROM feedbacks";
+// Requête SQL pour récupérer les feedbacks dans l'ordre décroissant
+$query = "SELECT * FROM feedbacks ORDER BY date DESC";
 $stmt = $db->prepare($query);
 $stmt->execute();
 $feedbacks = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -18,7 +18,7 @@ $feedbacks = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <p><small><?php echo $feedback['email'] ?></small></p>
                         <p class="mb-0 opacity-75"><?php echo $feedback['message'] ?></p>
                     </div>
-                    <small class="opacity-50 text-nowrap">now</small>
+                    <small class="opacity-50 text-nowrap"><?php echo $feedback['date'] ?></small>
                 </div>
             </a>
         <?php endforeach; ?>
