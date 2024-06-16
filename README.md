@@ -1,7 +1,3 @@
-Voici un exemple de résumé pour le README de votre projet GitHub :
-
----
-
 # Projet de Feedback PHP
 
 ## Description
