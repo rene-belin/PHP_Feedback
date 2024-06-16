@@ -62,5 +62,4 @@ Ce mini projet est une application web simple de collecte de feedbacks, construi
 - `partials/` : Répertoire contenant les fichiers de header et footer partagés.
 
 ## Aperçu du Projet
-![aperçu](images/accueilFeedback.png)
-![aperçu](images/Feedback.png)
+![accueil du Projet](images/accueilFeedback.png)
